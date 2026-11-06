@@ -20,6 +20,10 @@ Logic gates are the basic building blocks of digital systems. NAND and NOR are u
 File name	Purpose
 logic_gates.v	Logic-gate RTL
 logic_gates_tb.v	All input combinations and VCD generation
+<img width="718" height="149" alt="WhatsApp Image 2026-11-06 at 3 07 27 PM" src="https://github.com/user-attachments/assets/8970b51d-19aa-4127-a639-7b1325c7b3b5" />
+
+
+
  # Verilog  Program
  module basic_gates (
     input  wire a,
@@ -75,7 +79,7 @@ endmodule
 
 
  
-<img width="940" height="318" alt="image" src="https://github.com/user-attachments/assets/8a343bdb-ffb4-4aac-8b88-cf59eca374a8" />
+
 
 # Simulation Procedure
 STEP 1 – Open Terminal
@@ -125,29 +129,7 @@ Y_NOT = A'
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 Output
 # OUTPUT
-<img width="1920" height="1080" alt="Screenshot 2026-10-21 160849" src="https://github.com/user-attachments/assets/bf8b42fb-ed67-4ad9-8ed0-7430e0a6a2c2" />
-
-
+<img width="1920" height="1080" alt="Screenshot 2026-11-06 144651" src="https://github.com/user-attachments/assets/48f1f6cf-0671-42a4-a649-980fcbe4f24d" />
 
  
-# Viva-Voce Questions
-
-•	What is a logic gate?
-
-•	What are the basic logic gates in digital electronics?
-
-•	What is the Boolean expression for an AND gate? An OR gate? A NOT gate?
-
-•	Why is the NOT gate also called an inverter?
-
-•	What is a universal gate, and how can NAND/NOR realize AND, OR, and NOT?
-
-•	What is the purpose of a Verilog testbench?
-
-•	Why is a VCD file generated?
-
-•	What is the purpose of ./simv?
-•	What is the purpose of DVE?
-•	What is the difference between simulation and synthesis?
-•	What is the difference between $dumpfile and $dumpvars?
 
